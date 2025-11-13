@@ -7,8 +7,6 @@ const josefin = Josefin_Sans({
   display: 'swap',
 })
 
-console.log(josefin)
-
 import '@/app/_styles/globals.css'
 
 export const metadata = {
@@ -24,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body
-        className={`${josefin.className} antialiased bg-primary-950 text-primary-100 min-h-screen flex flex-col`}
+        className={`${josefin.className} antialiased bg-primary-950 text-primary-100 min-h-screen flex flex-col relative`}
       >
         <Header />
         <div className='flex-1 px-8 py-12'>
