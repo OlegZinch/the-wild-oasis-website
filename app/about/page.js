@@ -51,6 +51,7 @@ export default function Page() {
           className='object-cover'
           alt='Family that manages The Wild Oasis'
           fill
+          // sizes='33vw'
         />
       </div>
 
