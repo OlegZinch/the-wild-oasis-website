@@ -2,6 +2,9 @@ import { Suspense } from 'react'
 import CabinList from '@/app/_components/CabinList'
 import Spinner from '@/app/_components/Spinner'
 
+export const revalidate = 3600 // 1 hour
+// export const revalidate = 60
+
 export const metadata = {
   title: 'Cabins',
 }
