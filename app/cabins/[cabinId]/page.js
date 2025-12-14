@@ -8,8 +8,7 @@ import Cabin from '@/app/_components/Cabin'
 //   title: 'Cabin',
 // }
 export async function generateMetadata({ params }) {
-  const { cabinId } = await params
-  const { name } = await getCabin(cabinId)
+  const { name } = await getCabin(params.cabinId)
   return {
     title: `Cabin ${name}`,
   }
@@ -24,8 +23,7 @@ export async function generateStaticParams() {
 }
 
 export default async function Page({ params }) {
-  const { cabinId } = await params
-  const cabin = await getCabin(cabinId)
+  const cabin = await getCabin(params.cabinId)
 
   return (
     <div className='max-w-6xl mx-auto mt-8'>
