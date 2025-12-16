@@ -13,9 +13,9 @@ export default async function Page() {
   const cabins = await getCabins()
 
   return (
-    <div className='grid grid-cols-5 gap-x-24 gap-y-32 text-lg items-center'>
+    <div className='grid grid-cols-1 gap-y-12 text-lg items-center md:grid-cols-5 md:gap-x-24 md:gap-y-32'>
       <div className='col-span-3'>
-        <h1 className='text-4xl mb-10 text-accent-400 font-medium'>
+        <h1 className='text-2xl mb-6 text-accent-400 font-medium md:text-4xl md:mb-10'>
           Welcome to The Wild Oasis
         </h1>
 
@@ -51,7 +51,7 @@ export default async function Page() {
         />
       </div>
 
-      <div className='col-span-2 relative aspect-square'>
+      <div className='col-span-2 relative hidden aspect-square md:block'>
         <Image
           src='/about-2.jpg'
           className='object-cover'
@@ -62,7 +62,7 @@ export default async function Page() {
       </div>
 
       <div className='col-span-3'>
-        <h1 className='text-4xl mb-10 text-accent-400 font-medium'>
+        <h1 className='text-2xl mb-6 text-accent-400 font-medium md:text-4xl md:mb-10'>
           Managed by our family since 1962
         </h1>
 
@@ -82,10 +82,20 @@ export default async function Page() {
             is like coming home.
           </p>
 
+          <div className='relative aspect-square md:hidden'>
+            <Image
+              src='/about-2.jpg'
+              className='object-cover'
+              alt='Family that manages The Wild Oasis'
+              fill
+              sizes='(max-width: 768px) 100vw, 33vw'
+            />
+          </div>
+
           <div>
             <Link
               href='/cabins'
-              className='inline-block mt-4 bg-accent-500 px-8 py-5 text-primary-800 text-lg font-semibold hover:bg-accent-600 transition-all'
+              className='inline-block mt-4 bg-accent-500 px-4 py-4 text-primary-800 text-lg font-semibold hover:bg-accent-600 transition-all md:px-8 md:py-5'
             >
               Explore our luxury cabins
             </Link>

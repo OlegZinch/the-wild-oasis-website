@@ -4,7 +4,7 @@ import bg from '@/public/bg.png'
 
 export default function Page() {
   return (
-    <section className='mt-24'>
+    <section className='mt-52 md:mt-24'>
       <Image
         src={bg}
         className='object-cover object-top'
@@ -15,12 +15,12 @@ export default function Page() {
       />
 
       <div className='relative z-10 text-center'>
-        <h1 className='text-8xl text-primary-50 mb-10 tracking-tight font-normal'>
+        <h1 className='text-4xl text-primary-50 mb-10 tracking-tight font-normal sm:text-5xl md:text-8xl'>
           Welcome to paradise.
         </h1>
         <Link
           href='/cabins'
-          className='bg-accent-500 px-8 py-6 text-primary-800 text-lg font-semibold hover:bg-accent-600 transition-all'
+          className='bg-accent-500 px-4 py-4 text-primary-800 text-lg font-semibold hover:bg-accent-600 transition-all md:px-8 md:py-6'
         >
           Explore luxury cabins
         </Link>

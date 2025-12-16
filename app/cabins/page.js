@@ -20,7 +20,7 @@ export default function Page({ searchParams }) {
 
   return (
     <div>
-      <h1 className='text-4xl mb-5 text-accent-400 font-medium'>
+      <h1 className='text-2xl mb-5 text-accent-400 font-medium md:text-4xl'>
         Our Luxury Cabins
       </h1>
       <p className='text-primary-200 text-lg mb-10'>
