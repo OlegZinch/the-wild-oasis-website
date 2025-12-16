@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌴 The Wild Oasis - Reservation System
 
-## Getting Started
+## 📋 About The Project
 
-First, run the development server:
+Welcome to The Wild Oasis! This is a **customer web application** where users can view available cabins, make reservations, manage their bookings, and update their profiles.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project has been a great learning experience for me in exploring **Next.js, NextAuth.js, Tailwindcss, Date-fns and other advanced techniques**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🚀 Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Check out the live application: [🌐 The Wild Oasis - Reservation System](https://the-wild-oasis-website-oz.vercel.app/)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🔗 Admin Version
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I've also developed an **admin version** where hotel staff can manage cabins, reservations, and guests:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [📂 Repository](https://github.com/OlegZinch/the-wild-oasis)
+- [🌐 Live Site](https://the-wild-oasis-admin-oz.vercel.app)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✨ Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 📋 **Browse Cabins**: View all available cabins with descriptions and images
+- 🛏️ **Make Reservations**: Book cabins for available dates and select guest count
+- 🔐 **User Authentication**: Sign in with Google to manage reservations
+- ✏️ **Reservation Management**: View, edit, or cancel your reservations
+- 🧑‍💼 **Profile Management**: Update your profile information
+- 📱 **Fully Responsive**: Optimized for all devices and screen sizes
